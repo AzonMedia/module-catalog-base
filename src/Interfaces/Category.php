@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace Azonmedia\Catalog\Base\Interfaces;
+namespace GuzabaPlatform\Catalog\Base\Interfaces;
 
-use Azonmedia\Tags\Base\Interfaces\SupportsTagsInterface;
+use GuzabaPlatform\Tags\Base\Interfaces\SupportsTagsInterface;
 
 interface Category extends SupportsTagsInterface
 {

@@ -1,8 +1,8 @@
 {
-    "name": "azonmedia/catalog-base",
+    "name": "guzaba-platform/catalog-base",
     "type": "library",
     "description": "Catalog interfaces",
-    "keywords": ["catalog","products catalog"],
+    "keywords": ["catalog interfaces"],
     "homepage": "https://github.com/AzonMedia/module-catalog-base",
     "license": "BSD-3-Clause",
     "authors": [
@@ -15,11 +15,11 @@
     ],
     "require": {
         "php": ">=7.2.0",
-        "azonmedia/tags-base": "dev-master"
+        "guzaba-platform/tags-base": "dev-master"
     },
     "autoload": {
         "psr-4": {
-            "Azonmedia\\Catalog\\Base\\": "src/"
+            "GuzabaPlatform\\Catalog\\Base\\": "src/"
         }
     }
 }

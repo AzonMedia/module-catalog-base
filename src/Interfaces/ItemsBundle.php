@@ -1,8 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Azonmedia\Catalog\Base\Interfaces;
-
+namespace GuzabaPlatform\Catalog\Base\Interfaces;
 
 interface ItemsBundle extends Item
 {
