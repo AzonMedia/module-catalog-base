@@ -4,7 +4,7 @@
     "description": "Catalog interfaces",
     "keywords": ["catalog interfaces"],
     "homepage": "https://github.com/AzonMedia/module-catalog-base",
-    "license": "BSD-3-Clause",
+    "license": "MIT",
     "authors": [
         {
             "name": "Vesko Kenashkov",
