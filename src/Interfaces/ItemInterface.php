@@ -3,9 +3,10 @@ declare(strict_types=1);
 
 namespace GuzabaPlatform\Catalog\Base\Interfaces;
 
+use GuzabaPlatform\Images\Interfaces\SupportsImagesInterface;
 use GuzabaPlatform\Tags\Base\Interfaces\SupportsTagsInterface;
 
-interface Category extends SupportsTagsInterface
+interface ItemInterface extends SupportsTagsInterface, SupportsImagesInterface
 {
-    public function get_items() : iterable ;
+
 }

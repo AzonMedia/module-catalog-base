@@ -5,7 +5,7 @@ namespace GuzabaPlatform\Catalog\Base\Interfaces;
 
 use GuzabaPlatform\Tags\Base\Interfaces\SupportsTagsInterface;
 
-interface Item extends SupportsTagsInterface
+interface CategoryInterface extends SupportsTagsInterface
 {
-
+    public function get_items() : iterable ;
 }
